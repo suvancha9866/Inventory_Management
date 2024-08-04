@@ -35,6 +35,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-firebase.js
-
-C:\Users\suvan\Headstarter\Project 2\inventory_management\firebase.js
+.env
