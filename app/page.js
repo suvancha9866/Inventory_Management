@@ -141,6 +141,27 @@ export default function Home() {
               className={josefinSlab.className}
               variant='outlined'
               fullWidth
+              sx={{
+                width:"260px",
+                margin: "10px",
+                '& .MuiOutlinedInput-root': {
+                  '& fieldset': {
+                    borderColor: 'black', // Default border color
+                  },
+                  '&:hover fieldset': {
+                    borderColor: 'black', // Border color on hover
+                  },
+                  '&.Mui-focused fieldset': {
+                    borderColor: 'black', // Border color when focused
+                  },
+                },
+                '& .MuiInputLabel-root': {
+                  color: 'black', // Label color
+                },
+                '& .MuiInputLabel-root.Mui-focused': {
+                  color: 'black', // Label color when focused
+                }
+              }}
               InputProps={{
                 className: josefinSlab.className,
               }}
